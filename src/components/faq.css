@@ -1,0 +1,41 @@
+.faq-container .faq-head-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 5rem 0 3rem 0;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.faq-container .faq-head-text h1 span {
+    color: orangered;
+}
+
+.faq-container .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 10rem;
+}
+.faq-container .container .body-img img{
+    width: 400px;
+}
+
+.faq-container .container .body-container {
+    width: 100%;
+    height: 100%;
+    margin: 2rem 5rem 1rem 10rem;
+    border: 1px solid #949191eb;
+}
+
+.faq-container .accordion-item button {
+    width: 100%;
+    background: none;
+    border: 1px solid #e6ece7;
+    padding: 1rem 2px 1rem 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-container .accordion-item .accordionBody {
+    display: none;
+    padding: 2px 0 1rem 10px;
+}

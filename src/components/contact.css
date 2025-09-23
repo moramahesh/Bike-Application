@@ -1,0 +1,69 @@
+.contact-head {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-head h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+.contact-head span {
+    color: orangered;
+}
+
+.contact-head p {
+    color: #7e7b7b;
+    margin: 0px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    margin: 5rem 0rem 6rem 0rem;
+}
+
+.contact-container .contactImg img {
+    width: 400px;
+    padding-right: 5rem;
+    padding-left: 10rem;
+}
+
+.contact-container .contact-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-body label {
+    font-family: Arial;
+}
+
+.contact-body input {
+    border: 1px solid #c9c4c4;
+    height: 30px;
+    width: 300px;
+}
+
+.contact-body textarea {
+    border: 1px solid #c9c4c4;
+    height: auto;
+}
+
+.contact-body button{
+    border: solid 1px;
+    color: white;
+    background: orangered;
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.contact-body button:hover{
+    background: rgb(234, 95, 45);
+}

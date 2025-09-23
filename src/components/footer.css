@@ -1,0 +1,30 @@
+.footer-container {
+    background-color: #464646;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-body {
+    padding-left: 5rem;
+    margin-top: 1rem;
+}
+
+.footer-other {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+
+.footer-text {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.footer-container img {
+    width: 130px;
+    padding: 15px;
+    margin-right: 10rem;
+    cursor: pointer;
+}

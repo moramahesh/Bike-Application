@@ -6,6 +6,8 @@ import NewModel from './components/shop';
 import LatestNews from './components/News';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import About from './components/about';
+import Faq from './components/faq';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Navbar />
       <NewModel />
       <LatestNews/>
+      <Faq />
+      <About />
       <Contact />
       <Footer />
     </Router>

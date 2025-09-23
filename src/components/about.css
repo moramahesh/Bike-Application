@@ -1,0 +1,60 @@
+.about-head {
+    text-align: center;
+    margin: 5rem;
+}
+
+.about-head h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+.about-head span {
+    color: orangered;
+}
+
+.about-head p {
+    color: rgb(68, 68, 68);
+    margin: 0px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-container .aboutImg img{
+    width: 250px;
+    margin: 0rem 5rem 0rem 10rem;
+}
+
+.about-body h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.about-body p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-body .row-1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.about-body .row-1 li {
+    width: 300px;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.about-body .row-2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.about-body .row-2 li {
+    width: 300px;
+    padding-right: 2rem;
+}
