@@ -28,7 +28,7 @@
 }
 
 .contact-container .contactImg img {
-    width: 400px;
+    width: 20rem;
     padding-right: 5rem;
     padding-left: 10rem;
 }
@@ -47,14 +47,16 @@
     border: 1px solid #c9c4c4;
     height: 30px;
     width: 300px;
+    outline: none;
 }
 
 .contact-body textarea {
     border: 1px solid #c9c4c4;
     height: auto;
+    outline: none;
 }
 
-.contact-body button{
+.contact-body button {
     border: solid 1px;
     color: white;
     background: orangered;
@@ -64,6 +66,30 @@
     margin-top: 5px;
     cursor: pointer;
 }
-.contact-body button:hover{
+
+.contact-body button:hover {
     background: rgb(234, 95, 45);
+}
+
+@media (max-width:960px) {
+    .contact-head h1 {
+        font-size: 3vw;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        margin: 1rem 0 2rem 0;
+    }
+
+    .contact-container .contactImg img {
+        width: 20rem;
+        padding: 0;
+    }
+
+    .contact-body input, textarea {
+        padding: 3px;
+    }
 }

@@ -22,19 +22,22 @@
 .about-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    transition: all 0.3ms ease-in-out;
 }
 
-.about-container .aboutImg img{
-    width: 250px;
-    margin: 0rem 5rem 0rem 10rem;
+.about-container .aboutImg img {
+    width: 20vw;
+    margin: 0 0 0 15vw;
 }
 
-.about-body h4{
+.about-body h4 {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
 
-.about-body p{
+.about-body p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -45,7 +48,7 @@
 }
 
 .about-body .row-1 li {
-    width: 300px;
+    width: 20rem;
     padding: 0rem 2rem 0rem 0rem;
 }
 
@@ -55,6 +58,33 @@
 }
 
 .about-body .row-2 li {
-    width: 300px;
+    width: 20rem;
     padding-right: 2rem;
+}
+
+@media (max-width:1280px) {
+    .about-head {
+        margin-bottom: 2rem;
+    }
+
+    .about-head h1 {
+        font-size: 3vw;
+    }
+
+    .about-container .aboutImg img {
+        width: 10rem;
+        margin: 0 0 0 0;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        transition: all 0.3ms ease-in-out;
+    }
+
+    .about-body {
+        width: 80vw;
+        padding: 1rem 2rem;
+    }
 }

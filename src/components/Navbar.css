@@ -102,11 +102,12 @@ header {
         position: absolute;
         top: 20px;
         right: 7px;
-        background: #4d4c4c;
+        background: white;
         width: auto;
         padding: 10px;
         text-align: center;
         border-radius: 2vw;
+        z-index: 1000;
     }
 
     .nav-links.active {
@@ -116,6 +117,9 @@ header {
 
     .nav-links ul {
         flex-direction: column;
+    }
+    .nav-links li a {
+        color: black;
     }
 
     .body-description {

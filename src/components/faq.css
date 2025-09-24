@@ -12,18 +12,21 @@
 
 .faq-container .container {
     display: flex;
-    justify-content: space-between;
-    margin: 0rem 10rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 0rem 1vw 0 15vw;
 }
-.faq-container .container .body-img img{
-    width: 400px;
+
+.faq-container .container .body-img img {
+    width: 20rem;
+    transition: all 0.3ms ease-in-out;
 }
 
 .faq-container .container .body-container {
-    width: 100%;
+    width: 30rem;
     height: 100%;
-    margin: 2rem 5rem 1rem 10rem;
-    border: 1px solid #949191eb;
+    margin: 2rem 5rem 1rem 0rem;
+    border: 1px solid #dd0707eb;
 }
 
 .faq-container .accordion-item button {
@@ -38,4 +41,22 @@
 .faq-container .accordion-item .accordionBody {
     display: none;
     padding: 2px 0 1rem 10px;
+}
+
+@media (max-width:1160px) {
+    .faq-container .container .body-img img {
+        width: 15rem;
+        transition: all 0.3ms ease-in-out;
+        margin-left: 15vw;
+    }
+
+    .faq-container .container .body-container {
+        width: 30rem;
+        height: 100%;
+        margin: 0rem 5rem 1rem 10vw;
+        border: 1px solid #dd0707eb;
+    }
+    .faq-container .faq-head-text h1 {
+        font-size: 3vw;
+    }
 }

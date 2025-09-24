@@ -1,4 +1,7 @@
 .footer-container {
+    width: 99%;
+    margin: 5px;
+    border-radius: 1vw;
     background-color: #464646;
     color: white;
     display: flex;
@@ -14,7 +17,7 @@
     display: flex;
     gap: 20px;
     cursor: pointer;
-    
+    flex-wrap: wrap;
 }
 
 .footer-text {
@@ -27,4 +30,18 @@
     padding: 15px;
     margin-right: 10rem;
     cursor: pointer;
+}
+
+@media (max-width:680px) {
+    .footer-container {
+        background-color: #ff3131;
+    }
+
+    .footer-other {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
 }
