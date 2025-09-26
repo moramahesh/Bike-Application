@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Bike-Application/static/css/main.2199680c.css",
+    "main.js": "/Bike-Application/static/js/main.f79e04af.js",
+    "static/js/453.d70af3e6.chunk.js": "/Bike-Application/static/js/453.d70af3e6.chunk.js",
+    "static/media/bike-3.png": "/Bike-Application/static/media/bike-3.968a14f5d937cbab6834.png",
+    "static/media/bike-1.png": "/Bike-Application/static/media/bike-1.cc2273f00703648d93be.png",
+    "static/media/bike-2.png": "/Bike-Application/static/media/bike-2.329b080a799f5c196059.png",
+    "static/media/header-bike.png": "/Bike-Application/static/media/header-bike.d1adff59409239f74146.png",
+    "static/media/pulser Ns400Z.png": "/Bike-Application/static/media/pulser Ns400Z.1e741cd6ae4844c0b4d0.png",
+    "static/media/pulsar.png": "/Bike-Application/static/media/pulsar.2e1588eb2ffe838ad585.png",
+    "static/media/faq.png": "/Bike-Application/static/media/faq.66afaddad2ab0db6029e.png",
+    "static/media/r15m.webp": "/Bike-Application/static/media/r15m.f7fedc02b1b9e5b10d5b.webp",
+    "static/media/Motorcycle-logo.png": "/Bike-Application/static/media/Motorcycle-logo.8a40eb80e6a36dd880a0.png",
+    "static/media/contact.svg": "/Bike-Application/static/media/contact.eec8e398db28340e3ebbc6176abcfd6e.svg",
+    "static/media/woman.png": "/Bike-Application/static/media/woman.e824414783e1e0f98127.png",
+    "static/media/download.png": "/Bike-Application/static/media/download.e5da82bdda8c090b6bbe.png",
+    "static/media/profile.png": "/Bike-Application/static/media/profile.227e595e234f4d53f478.png",
+    "index.html": "/Bike-Application/index.html",
+    "main.2199680c.css.map": "/Bike-Application/static/css/main.2199680c.css.map",
+    "main.f79e04af.js.map": "/Bike-Application/static/js/main.f79e04af.js.map",
+    "453.d70af3e6.chunk.js.map": "/Bike-Application/static/js/453.d70af3e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2199680c.css",
+    "static/js/main.f79e04af.js"
+  ]
+}
